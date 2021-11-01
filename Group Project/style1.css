@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'IM Fell English', serif;
+    background-color: #000000;
+    color: #E5E5E5;
+}
+header {
+    grid-area: header;
+    text-align: center;
+    position: sticky;
+}
+nav {
+    grid-area: nav;
+}
+main {
+    grid-area: main;
+}
+footer {
+    grid-area: footer;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+h1, h2, h3 {
+    font-family: 'IM Fell English SC', serif;
+    color: #A5BE00;
+}
+h1 {
+    font-size: 3em;
+}
+h2 { 
+    font-size: 2em;
+}
+h3 {
+    font-size: 1.5em;
+}
+a {
+    text-decoration: none;
+    color: #FF7D00;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+nav li {
+    padding: 0;
+    margin: 0;
+}
+nav a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 1rem;
+    background: #FF7D00;
+    margin-bottom: 0.5rem;
+    border-radius: 0.25rem;
+    color: #000000;
+}
+.wrapper {
+    width: 85%;
+    margin: auto;
+    display: grid;
+    grid-template:
+    "header" 
+    "main"
+    "footer"
+    / 20%;
+    column-gap: 2rem;
+}
