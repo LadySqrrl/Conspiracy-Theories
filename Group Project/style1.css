@@ -98,6 +98,7 @@ nav a {
     border-radius: 10px;
     padding: 20px;
     margin: 10px;
+    cursor: pointer;
 }
 .aboutBox{
     padding: 10px;
@@ -123,7 +124,7 @@ nav a {
     width: 20%;
     opacity: .7;
     float: left;
-    margin-top: 40px;
+    margin-top: 60px;
     margin-right: 30px;
     margin-bottom: 30px;
     padding-bottom: 30px;
@@ -146,4 +147,21 @@ nav a {
 #text ul li{
     text-align: left;
     list-style-type: none;
+}
+@media (max-width: 900px) {
+    nav li {
+        display: block;
+        font-size: 1.5em;
+    }
+    .defBox{
+        width: 90%;
+        float: left;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .aboutBox{
+        float: left;
+        width: 90%;
+        margin-top: 0px;
+    }
 }
