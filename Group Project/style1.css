@@ -148,7 +148,7 @@ nav a {
     text-align: left;
     list-style-type: none;
 }
-@media (max-width: 900px) {
+@media (max-width: 1075px) {
     nav li {
         display: block;
         font-size: 1.5em;
