@@ -138,6 +138,9 @@ nav a {
 .defBox a{
     color:#E5E5E5;
 }
+.left{
+    float: left;
+}
 .clear{
     clear: both;
 }
